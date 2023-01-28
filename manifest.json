@@ -1,0 +1,18 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/jquery-1.10.2.js", "js/nlusca.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "Trolagem do titio lusca",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "Nlusca",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0",
+   "web_accessible_resources": [ "js/jquery.js", "img/*" ]
+}
